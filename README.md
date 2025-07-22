@@ -1,7 +1,7 @@
 Title: LegalAdvisorBot – AI-Powered Legal Case Analyzer
 The title "LegalAdvisorBot" effectively reflects the primary objective of the project, which is to provide AI-powered assistance in understanding legal scenarios and mapping them to relevant Indian Penal Code (IPC) sections. In a country where access to legal counsel is limited for many due to cost, complexity, or lack of awareness, this application bridges the gap by using Natural Language Processing (NLP) to provide preliminary legal guidance. Users can describe their problem in simple language, and the bot will return relevant IPC sections, offenses, punishments, and even similar past case links from Indian Kanoon. The name conveys both the legal focus and the AI-driven conversational nature of the solution.
 ________________________________________
-2. Aim and Scope of the Project
+Aim and Scope of the Project
 Objective:
 1.	To build an AI-powered chatbot that interprets user-input legal situations and returns relevant IPC sections.
 2.	To enhance legal awareness and accessibility by simplifying complex legal information.
@@ -14,7 +14,7 @@ Scope:
 4.	Extendable in future for regional languages, voice input, or document-based extraction.
 5.	Deploy using platforms like Streamlit Cloud, and host datasets securely.
 ________________________________________
-3. Basic Concepts Related to the Project
+Basic Concepts Related to the Project
 •	NLP Techniques: TF-IDF Vectorizer and Cosine Similarity are used to compare user input with legal descriptions.
 •	IPC Dataset: CSV file containing IPC section numbers, offense titles, descriptions, and punishments.
 •	Streamlit: A Python framework to build simple and interactive web apps quickly.
@@ -22,7 +22,7 @@ ________________________________________
 •	Data Matching: User's description is matched with legal text to suggest top IPCs.
 •	Past Case Integration: Indian Kanoon is searched for relevant case judgments, and top links are presented to the user.
 ________________________________________
-4. Analysis and Explanation of the Identified Problem
+Analysis and Explanation of the Identified Problem
 The Problem:
 Legal guidance in India is often expensive, delayed, or inaccessible to the common man. Many people are unaware of their legal rights or the relevant laws that apply to their situations. Minor legal issues go unreported or mishandled due to lack of understanding. There's also a need for tools that bridge legal information and real-world case references in a simple, conversational format.
 Challenges Identified:
