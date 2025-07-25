@@ -7,8 +7,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 from bs4 import BeautifulSoup
 
-# Load IPC Dataset
-ipc_df = pd.read_csv("ipc_sections.csv")
+import os
+ipc_path = os.path.join(os.path.dirname(__file__), "ipc_sections.csv")
+ipc_df = pd.read_csv(ipc_path)
+
 ipc_df['combined_text'] = ipc_df['Description'].fillna('') + " " + ipc_df['Offense'].fillna('')
 
 def match_ipc_sections(user_input, df, top_n=3):
