@@ -1,3 +1,5 @@
+https://legaladvisorbot-ypaagwc8dkhuvf8n5uc6mr.streamlit.app/
+
 Title: LegalAdvisorBot – AI-Powered Legal Case Analyzer
 The title "LegalAdvisorBot" effectively reflects the primary objective of the project, which is to provide AI-powered assistance in understanding legal scenarios and mapping them to relevant Indian Penal Code (IPC) sections. In a country where access to legal counsel is limited for many due to cost, complexity, or lack of awareness, this application bridges the gap by using Natural Language Processing (NLP) to provide preliminary legal guidance. Users can describe their problem in simple language, and the bot will return relevant IPC sections, offenses, punishments, and even similar past case links from Indian Kanoon. The name conveys both the legal focus and the AI-driven conversational nature of the solution.
 ________________________________________
